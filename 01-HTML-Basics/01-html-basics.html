@@ -9,6 +9,106 @@
 
 <body>
 
+    <i>Italic Text</i>
+    <em>Hello em</em>
+    <small>Hello I am small tag, and I am <mark> MARK</mark>, and I wan to <del> delete </del> this text </small>
+
+    <img src="./car.png" width="100" height="100" alt="This is a car pic">
+
+    <a href="https://www.google.com/">Google</a>
+
+    <a href="https://www.pakwheels.com/" target="_blank">
+        <img src="./car.png" alt="" width="100">
+    </a>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, maiores.
+    </p>
+
+    <!-- FORMS -->
+    <h2>Forms</h2>
+
+    <form action="./contact.html">
+        <label for="loginName">Login Name</label>
+        <input type="text" id="loginName" name="loginName" minlength="4" maxlength="10" autocomplete="off"
+            placeholder="Enter Login Name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" autocomplete="off" placeholder="Enter Your Email">
+
+        <label for="prd">Operating Systems</label>
+        <select name="prd" id="prd">
+            <option value="mac-2020">Apple</option>
+            <option value="windows10">Microsoft</option>
+            <option value="linux">Open Source</option>
+        </select>
+
+        <label for="msg">Message</label>
+        <textarea name="msg" id="msg" cols="20" rows="4"></textarea>
+
+        <label for="iphone">iPhone</label>
+        <input type="radio" name="iphone" id="iphone">
+        <label for="samsung">Samsung</label>
+        <input type="radio" name="samsung" id="samsung">
+
+        <button type="submit">Login</button>
+        <a href="./register.html">Register</a>
+    </form>
+
+    <!-- LIST ul => unordered list, ol => ordered list -->
+    <h2>List</h2>
+    <ul>
+        <li>Item 1</li>
+        <ol type="a">
+            <li>product 1</li>
+            <li>product 2</li>
+            <li>product 3</li>
+        </ol>
+        <li>Item 2</li>
+        <li>Item 3</li>
+
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">About </a>
+        </li>
+    </ul>
+
+    <!-- Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>23</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Classes and ID's -->
+    <h1 id="logo">Logo</h1>
+
+    <h2>Article Title One</h2>
+    <p class="article-text leading text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio illum rerum
+        tempora quis
+        quae ab.</p>
+
+    <h2>Article Title Two</h2>
+    <p class="article-text leading">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio illum rerum tempora
+        quis
+        quae ab.</p>
+
+    <p id="plain-text">This is some text that has nothing to do with the article</p>
+
+
 </body>
 
 </html>
