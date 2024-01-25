@@ -1,0 +1,12 @@
+/* Selector Specificity:  */
+h2 {
+  color: gold !important;
+}
+
+#headingTwo {
+  color: dodgerblue;
+}
+
+.first-title {
+  color: tomato;
+}
