@@ -1,0 +1,31 @@
+* {
+  font-size: 20px;
+}
+
+.random h1 {
+  color: gold;
+}
+
+.my-list + ul {
+  list-style: none;
+}
+
+ul > li {
+  color: green;
+}
+
+.nav-links > li {
+  color: peachpuff;
+}
+
+.nav-links > li > a {
+  color: red;
+}
+
+.links li:nth-child(4) {
+  color: black;
+}
+
+.links li:nth-child(3n + 1) {
+  color: red;
+}
