@@ -1,0 +1,10 @@
+button {
+  margin: 50px; /*T R B L */
+  /*padding: 50px 20px 30px 40px; /*T R B L */
+  /* padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px; */
+  padding: 0 0 0 10px;
+  background-color: red;
+}

@@ -1,0 +1,13 @@
+html {
+  font-size: 62.5%;
+  /* 62.5% = 10px */
+}
+
+.text-section {
+  font-size: 3.2rem;
+}
+
+.text-section div {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
