@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 200%;
+}
+
+.container {
+  background-color: cadetblue;
+  height: 50%;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 20%;
+  height: 20%;
+  background-color: red;
+}
+
+.box1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box2 {
+  background-color: orangered;
+}
+
+.box3 {
+  background-color: tomato;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}

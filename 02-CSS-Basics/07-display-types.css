@@ -1,0 +1,20 @@
+h1 {
+  background-color: lightgray;
+  height: 4rem;
+}
+
+img {
+  width: 10rem;
+  height: 10rem;
+}
+
+a {
+  background-color: gold;
+  /*In inline width and height is not working */
+  width: 10rem;
+  height: 10rem;
+  margin: 5rem;
+  padding: 5rem;
+  display: inline-block;
+  text-align: center;
+}
