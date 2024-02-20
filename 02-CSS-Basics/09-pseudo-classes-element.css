@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 2rem 4rem;
+  cursor: pointer;
+  background-color: gold;
+  border: none;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: rgb(212, 181, 2);
+}
+
+button:focus {
+  color: red;
+}
+
+button:active {
+  border: 5px solid tomato;
+}
+
+button:nth-child(odd) {
+  color: dodgerblue;
+}
+
+div > button:last-child {
+  background-color: red;
+}
+
+ul > li:last-child {
+  color: red;
+}
+
+ul > li {
+  list-style: none;
+}
+
+ul > li::before {
+  content: "> ";
+}
+
+p::before {
+  content: "HELLO ";
+}
