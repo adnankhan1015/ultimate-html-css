@@ -1,0 +1,15 @@
+html,
+body {
+  height: 100%;
+}
+
+.box1 {
+  background-color: gold;
+  width: 50%;
+  height: 50%;
+}
+
+p {
+  background-color: tomato;
+  width: 50%;
+}
