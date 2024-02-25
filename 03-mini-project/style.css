@@ -30,5 +30,89 @@ button {
 a {
   font-size: 2.4rem;
   text-decoration: none;
-  color: black;
+  color: white;
+}
+
+/* Navbar */
+nav {
+  background-color: rgb(61, 81, 102);
+  color: white;
+  padding: 3rem;
+}
+
+nav h1 {
+  float: left;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+
+nav li {
+  float: left;
+  margin: 0 4rem;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url("./img/biryani.jpg");
+  height: 90rem;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 20rem;
+  text-shadow: 3px 3px 3px black;
+}
+
+.hero-section button {
+  padding: 1rem 4rem;
+  margin-top: 4rem;
+  background-color: rgb(53, 120, 190);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.form-section {
+  text-align: center;
+}
+
+form input,
+form label,
+form textarea {
+  display: block;
+  font-size: 2.4rem;
+}
+
+form input,
+form textarea {
+  margin: 2rem auto;
+  width: 50%;
+}
+
+form button {
+  margin-bottom: 10rem;
+  padding: 1rem 4rem;
+  background-color: rgb(53, 120, 190);
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 50%;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(61, 81, 102);
+  color: white;
+  padding: 3rem;
+}
+
+footer h3 {
+  text-align: center;
 }
