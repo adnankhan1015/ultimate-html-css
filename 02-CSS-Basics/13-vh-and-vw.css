@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+div {
+  min-height: 50vh;
+  background: cadetblue;
+  /* font-size: calc(2.4rem + 0.5vw); */
+  font-size: 3.6rem;
+  /* width: 50%; */
+}
+
+div h2 {
+  background-color: gold;
+  width: 100vw;
+}
+
+@media (min-width: 500px) and (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+  body {
+    background-color: gold;
+  }
+
+  div {
+    font-size: calc(1.4rem + 2vw);
+  }
+}
