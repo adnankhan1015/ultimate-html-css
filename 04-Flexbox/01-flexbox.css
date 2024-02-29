@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 3px solid black;
+  height: 100vh;
+  display: flex;
+  /* ! justify-content properties for row(Horizontal) */
+  justify-content: center;
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+
+  /* ! align-items properties used for vertical (Y-axis) */
+  align-items: center;
+  /* align-items: flex-end; */
+  /* align-items: flex-start; */
+
+  /* ! Flex-Direction */
+  /* By default and its in x-axis flex-direction: row;*/
+  /* For Y-axis flex-direction: column; */
+  flex-direction: column;
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse; */
+
+  /* ! Flex-wrap */
+  /* By Defualt flex-wrap: nowrap */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+}
+
+.box {
+  height: 10rem;
+  width: 10rem;
+}
+
+.box1 {
+  background-color: rgb(248, 137, 117);
+}
+
+.box2 {
+  background-color: rgb(251, 119, 96);
+}
+
+.box3 {
+  background-color: tomato;
+}
+
+.box4 {
+  background-color: rgb(207, 82, 60);
+}
+
+.box5 {
+  background-color: rgb(165, 64, 46);
+}
