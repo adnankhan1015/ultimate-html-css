@@ -36,7 +36,7 @@ h5 {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -47,4 +47,50 @@ button {
   color: white;
   font-size: 1.8rem;
   cursor: pointer;
+}
+
+/* Nav Sectin with hero */
+
+.main-head {
+  background-color: #131c27;
+  color: white;
+}
+
+nav {
+  min-height: 10vh;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  padding: 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  flex: 1 1 40rem;
+}
+
+#logo {
+  flex: 2 1 40rem;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("./img/landing-page.jpg");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h3 {
+  padding: 5rem;
 }
