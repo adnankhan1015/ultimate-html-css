@@ -14,7 +14,7 @@
     * Whenever you wrap the content you must do the align-content(its gonna position everything in a certain way)
     * Basically when you have content that's wrapping around you can adjust the way you want to wrap around thats why we use align-content. 
   */
-  /* align-content: space-between; */
+  /* align-content: center; */
 
   /* ! Flex-wrap */
   /* By Defualt flex-wrap: nowrap */
@@ -55,25 +55,30 @@
 
 .box {
   height: 10rem;
+  /* flex-basis: 10rem;
+  flex-grow: 1;
+  flex-shrink: 1; */
+  flex: 1 1 20rem;
   /* width: 10rem; */
 }
 
 .box1 {
   background-color: rgb(248, 137, 117);
-  flex-grow: 1;
+  flex-shrink: 0;
   /* * order property is used on the children of the parent whose display is flex, through which you can change the order of the children*/
   /* order: 1; */
 }
 
 .box2 {
   background-color: rgb(251, 119, 96);
-  flex-grow: 3;
+  align-self: center;
+  /* flex-grow: 3; */
   /* order: 5; */
 }
 
 .box3 {
   background-color: tomato;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   /* order: 3; */
 }
 
