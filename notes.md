@@ -1,3 +1,11 @@
+#### SHORTCUTS
+
+- To take screenshot on windows press => `SHIFT + WINDOW KEY + S` ===> Drag the mouse to take the screenshot
+
+#### Abrevations
+
+- SVG stands for Scalable Victor Graphics.
+
 #### Images Resources
 
 - Pexels https://www.pexels.com/
