@@ -20,3 +20,12 @@
 #### Helpful websites
 
 - To check properties are compatible on different browser or not: https://caniuse.com/
+
+#### Accessiblity
+
+##### Extension for accessibility
+
+- wave Evaluation Tool
+
+- aria stands for Accessible Rish Internet Application
+- WAI-ARIA stands for Web Accessibility Initiative – Accessible Rich Internet Applications

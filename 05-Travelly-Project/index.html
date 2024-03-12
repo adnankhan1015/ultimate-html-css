@@ -21,9 +21,9 @@
         <nav>
             <h1 id="logo">Travelly</h1>
             <ul>
-                <li><a href="#locations">Location</a></li>
-                <li><a href="#benefits">Benefits</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#locations" tabindex="1" title="locations">Location</a></li>
+                <li><a href="#benefits" tabindex="2" title="benefits"> Benefits</a></li>
+                <li><a href="#contact" tabindex="3" title="contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -32,7 +32,7 @@
         <section class="hero">
             <h2>Travel Beyond Limit</h2>
             <h3>Start your travel at an effordable price with travelly <br> contact us now, below</h3>
-            <button>Book Now</button>
+            <button aria-label="book-now-button">Book Now</button>
         </section>
 
         <!-- Location -->
@@ -87,12 +87,12 @@
                 </header>
                 <form>
                     <div class="name-form">
-                        <label for="name-form">Name</label>
-                        <input type="text" name="name" required>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" required>
                     </div>
                     <div class="email-form">
-                        <label for="email-form">Email</label>
-                        <input type="email" name="email" required>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
                     </div>
                     <button type="submit">Submit</button>
                 </form>
@@ -105,9 +105,13 @@
         <div class="footer-wrapper">
             <h5>Travelly &copy;</h5>
             <ul>
-                <li><a href="#"><img src="./icons/twitter.svg" alt=""></a></li>
-                <li><a href="#"><img src="./icons/youtube.svg" alt=""></a></li>
-                <li><a href="#"><img src="./icons/instagram.svg" alt=""></a></li>
+                <li><a href="#" title="twitter-social-media"><img src="./icons/twitter.svg"
+                            alt="twitter-social-media"></a></li>
+                <li><a href="#" title="youtube-social-media"><img src="./icons/youtube.svg"
+                            alt="youtube-social-media"></a></li>
+                <li><a href="#" title="instagram-social-media"><img src="./icons/instagram.svg"
+                            alt="instagram-social-media"></a>
+                </li>
             </ul>
         </div>
     </footer>
