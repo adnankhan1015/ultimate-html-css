@@ -29,3 +29,10 @@
 
 - aria stands for Accessible Rish Internet Application
 - WAI-ARIA stands for Web Accessibility Initiative – Accessible Rich Internet Applications
+
+#### Layouts
+
+1. Tables
+2. FLoats
+3. Flexbox
+4. CSS Grid
