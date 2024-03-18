@@ -11,12 +11,18 @@ html {
 .boxes {
   border: 1rem solid rgb(204, 204, 204);
   display: grid;
+  min-height: 60vh;
   /* grid-column-gap: 1rem;
   grid-row-gap: 1rem; */
-  grid-gap: 1em;
+  grid-gap: 1rem;
   /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
 
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 20rem 20rem;
+  /* It works horizontally and its values are start/center/end/stretch */
+  /* justify-items: stretch; */
+  /* It works vertically and its values are start/center/end/stretch*/
+  /* align-items: end; */
   /* grid-template-areas:
     "box2 box1 box3"
     "box2 box4 box4"
@@ -37,6 +43,10 @@ html {
   background-color: rgb(251, 119, 96);
   grid-column: 2/3;
   /* grid-area: box2; */
+  /* It works horizontally and its values are start/center/end/stretch */
+  justify-self: center;
+  /* It works vertically and its values are start/center/end/stretch*/
+  align-self: center;
 }
 
 .box3 {
