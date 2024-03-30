@@ -43,6 +43,9 @@
 - SASS stands for Syntatically Awesome Style Sheet
 - Extension Name: Live Sass Compiler
 - We have to create a file with the .scss extension and SCSS means **SASSY CSS**
+- SASS is a pre-processor for CSS.
+- SASS adds auto prefixer for CSS.
+- We have this website that can add prefixes to our CSS: [Autoprefixer CSS online](https://autoprefixer.github.io/)
 
 Q. What SASS is?
 
